@@ -1,0 +1,16 @@
+#DEFAULT/DEV ENVIRONEMNT SETTING#
+
+# *** Configuration SERVER ***
+server:
+   port: 8091
+   
+# *** Configuration SPRING ***
+spring:
+   main:
+      banner-mode: "off"
+   profiles:
+      active: "@spring.profiles.active@"
+
+invoke:
+   url: https://yesno.wtf
+   path: /api/
