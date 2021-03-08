@@ -145,6 +145,7 @@
 			<version>${acme-architecture-spring-testing.version}</version>
 			<scope>test</scope>
 			
+			
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
@@ -152,8 +153,10 @@
 				</exclusion>	
 			</exclusions>
 			
+			
 		</dependency>
 		 -->
+
 
 	</dependencies>
 

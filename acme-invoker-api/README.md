@@ -6,15 +6,20 @@ Este proyecto representa un microservicio básico que sirve para invocar a un AP
 Donde se puede plantear la llamada a un API externo (NO Securizado)
 
 * [yesno.wtf](https://yesno.wtf/) : Genera aleatoriamente un SI / NO + una imagen
+
 	* https://yesno.wtf/api
 * [Advice Slip](https://api.adviceslip.com/)  : Genera aleatoriamente un consejo
+
 	* https://api.adviceslip.com/advice : Consejo Aleatorio
 	* https://api.adviceslip.com/advice/{id} : Consejo por ID
 	* ...
+	
 * [its this for that](http://itsthisforthat.com/) : Ideas para una startup
+
 	* http://itsthisforthat.com/api.php?json
 	* ...
 * [ponyapi.wtf](https://ponyweb.ml/) : API para mostrar contenido sobre la serie "Mi pequeño Pony"
+
 	* https://ponyweb.ml/v1/character/{id} : Información sobre un personaje dado el ID o nombre
 	* https://ponyweb.ml/v1/song/{id} : Información sobre una canción dado un ID
 	* https://ponyweb.ml/v1/episode/all : Información sobre todos los episodios

@@ -42,12 +42,12 @@ public class CatalogSpringServiceImplArchitectureRule {
 		    classes()
 		    .that().resideInAPackage(SpringArchUnitPackageConstant.RESIDE_FINAL_PACKAGE_SPRING_SERVICE_IMPL_CLASS)
 		    .should()
-		    .dependOnClassesThat().resideInAPackage(SpringArchUnitPackageConstant.RESIDE_FINAL_PACKAGE_SPRING_REPOSITORY_CLASS)
-			.andShould().dependOnClassesThat().resideInAPackage(ArchUnitPackageConstant.RESIDE_FINAL_PACKAGE_MAPPER_CLASS)
-			.andShould().dependOnClassesThat().resideInAPackage(ArchUnitPackageConstant.RESIDE_FINAL_PACKAGE_SERVICE_CLASS)
-			//.dependOnClassesThat().resideInAPackage("..properties")
-			//.andShould().dependOnClassesThat().resideInAPackage("..slf4j")
-			//.andShould().dependOnClassesThat().resideInAPackage("..web.client")
+		    //.dependOnClassesThat().resideInAPackage(SpringArchUnitPackageConstant.RESIDE_FINAL_PACKAGE_SPRING_REPOSITORY_CLASS)
+			//.andShould().dependOnClassesThat().resideInAPackage(ArchUnitPackageConstant.RESIDE_FINAL_PACKAGE_MAPPER_CLASS)
+			//.andShould().dependOnClassesThat().resideInAPackage(ArchUnitPackageConstant.RESIDE_FINAL_PACKAGE_SERVICE_CLASS)
+			.dependOnClassesThat().resideInAPackage("..properties")
+			.andShould().dependOnClassesThat().resideInAPackage("..slf4j")
+			.andShould().dependOnClassesThat().resideInAPackage("..web.client")
 			;
 	
 	@ArchTest
