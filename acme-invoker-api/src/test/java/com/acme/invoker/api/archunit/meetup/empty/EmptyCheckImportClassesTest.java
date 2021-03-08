@@ -19,12 +19,13 @@ public class EmptyCheckImportClassesTest {
 	
 	private static final int NUM_IMPORTED_CLASSES_C_WITH_OPTIONS = 10;
 	
+	/*
 	JavaClasses IMPORTED_CLASSES_GLOBAL = new ClassFileImporter()
 			.withImportOption(ImportOption.Predefined.DO_NOT_INCLUDE_TESTS)
 			.withImportOption(ImportOption.Predefined.DO_NOT_INCLUDE_ARCHIVES)
 			.withImportOption(ImportOption.Predefined.DO_NOT_INCLUDE_JARS)
 			.importPackages("com.acme.invoker.api");
-	
+	*/
 	
 	private void showImportedClasses(List<Object> importedClassesList) {
 		for (Object value : importedClassesList) {
@@ -36,7 +37,6 @@ public class EmptyCheckImportClassesTest {
 	@Test
 	public void checkImportLocal() {
 		System.out.println("\n*** ClassFileImporter Local ***");
-		
 		
 		// Step 1 : Add local variable to methods for importing classes "importedClassesList"
 
